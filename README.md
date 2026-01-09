@@ -64,9 +64,9 @@ Arrest_Demographics_Disparity/
 
 1.  **Metric**: Relative Risk Ratio (RRR)
     
-    $$
+    ```math
     RRR = \frac{\% \text{ of Arrests for Group } X}{\% \text{ of Population for Group } X}
-    $$
+    ```
 2.  **Clustering**:
     *   **K-Medoids (PAM)**: Robust clustering using actual data points as centers.
     *   **GMM**: Probabilistic clustering allowing for soft assignments.
